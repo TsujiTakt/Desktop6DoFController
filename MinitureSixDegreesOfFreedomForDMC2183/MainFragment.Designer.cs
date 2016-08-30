@@ -199,7 +199,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "卓上6軸コントローラ";
+            this.Name = "MainFragment";
             this.Text = "卓上6軸コントローラ";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainFragment_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
