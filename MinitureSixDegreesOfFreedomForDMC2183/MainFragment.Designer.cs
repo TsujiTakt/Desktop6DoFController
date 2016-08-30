@@ -39,8 +39,8 @@
             this.label24 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -164,6 +164,17 @@
             this.panel2.Size = new System.Drawing.Size(229, 55);
             this.panel2.TabIndex = 10;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("メイリオ", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label2.Location = new System.Drawing.Point(43, 5);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(148, 48);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "一時停止";
+            this.label2.Visible = false;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -175,17 +186,6 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "運転中";
             this.label1.Visible = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("メイリオ", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label2.Location = new System.Drawing.Point(43, 5);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(148, 48);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "一時停止";
-            this.label2.Visible = false;
             // 
             // MainFragment
             // 
