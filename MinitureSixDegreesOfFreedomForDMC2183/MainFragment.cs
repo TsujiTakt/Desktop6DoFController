@@ -189,7 +189,7 @@ namespace MinitureSixDegreesOfFreedomForDMC2183
                                     gclib.GCommand("tP[" + (i - 1) + "]=" + tes[i][j], false);
                                    // System.Threading.Thread.Sleep(1);
                                 }
-                                if(i % 100 == 0)
+                                if(i % 20 == 0)
                                 {
                                     bar.progressBar1.Value = i;
                                     System.Windows.Forms.Application.DoEvents();
