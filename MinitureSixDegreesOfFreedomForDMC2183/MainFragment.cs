@@ -140,8 +140,8 @@ namespace MinitureSixDegreesOfFreedomForDMC2183
         {
             Stream myStream = null;
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
-
-            openFileDialog1.InitialDirectory = @"C:\data\";
+            string folderPath = System.IO.Directory.GetCurrentDirectory()+@"\data\";
+            openFileDialog1.InitialDirectory = folderPath;
             openFileDialog1.Filter = "csv files (*.csv)|*.csv|All files (*.*)|*.*";
             openFileDialog1.FilterIndex = 2;
             openFileDialog1.RestoreDirectory = true;

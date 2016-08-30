@@ -19,8 +19,8 @@ using GStatus = System.Byte;
 // IMPORTANT! Be sure that the paths below are correct 
 public static class LibraryPath
 {
-    public const string GclibDllPath_ = @"C:\gclib\dll\x86\gclib.dll";
-    public const string GcliboDllPath_ = @"C:\gclib\dll\x86\gclibo.dll";
+    public const string GclibDllPath_ = @".\gclibs\gclib.dll";
+    public const string GcliboDllPath_ = @".\gclibs\gclibo.dll";
 }
 
 
